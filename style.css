@@ -1,0 +1,24 @@
+#root {
+    --display-flex: flex;
+    --justify-content: center;
+    --align-items: center;
+    --flex-start: flex-start;
+    --flex-end: flex-end;
+    --direction-horizontal: row;
+    --direction-vertical: column;
+}
+
+#header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   background: red
+}
+
+#menu {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
