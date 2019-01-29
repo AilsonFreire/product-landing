@@ -13,12 +13,31 @@
    top: 0;
    left: 0;
    right: 0;
-   background: red
 }
 
 #menu {
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color: #7fff00;
     margin: 6px 0;
+}
+
+#nav-bar {
+    z-index: 20;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.2);
+}
+
+.list-links {
+    background: #7fff00;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    right: 0;
 }
